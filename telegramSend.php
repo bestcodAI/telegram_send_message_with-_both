@@ -1,9 +1,8 @@
 <?php
-  $botToken="7682682143:AAGTDHvfZ2CMFZUaVcMb2sseNY60jwyW8wk";
+  $botToken="Your bot api";
 
   $website="https://api.telegram.org/bot".$botToken;
-  $chatId = "-1002475273697";
-  // $chatId="5186991138";  //NOTE: this chatId MUST be the chat_id of a person, NOT another bot chatId !!!**
+  $chatId="Your chat_id group_id or channel_id";  //NOTE: this chatId MUST be the chat_id of a person, NOT another bot chatId !!!**
   $params=[
       'chat_id'=>$chatId, 
       'text'=>'Hello I`m coding. Testing bot with php and development package',
