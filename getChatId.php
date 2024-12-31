@@ -1,6 +1,6 @@
 <?php
 
-$botApi = "Your both api";
+$botApi = "Your bot api";
 
 $website = "https://api.telegram.org/bot".$botApi;
 
